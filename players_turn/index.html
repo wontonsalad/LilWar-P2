@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Player's Turn</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="top-row">
+            Who's Turn is it
+        </div>
+
+        <div id="person1-div">
+            <h3>Person 1</h3>
+            <p id="person1-p"> Its yo Turn</p>
+
+        </div>
+        <div id="person2-div">
+            <h3>Person 2</h3>
+            <p id="person2-p"> Its not yo Turn</p>
+            
+        </div>
+
+        <div class ="bottom-row">
+            <button class="button" onclick="switchTurn()">Switch</button>
+        </div>
+    </div>
+</body>
+</html>

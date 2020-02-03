@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rundown Beatdown: Card version</title>
+    <link rel = "stylesheet" type="text/css" href= "./cardlook.css" />
+    <script src='./card deck.js'></script>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="title">
+            Rundown Beatdown
+
+        </div>
+        <div id="player1-background">
+            <h2 id="player1-name">Player1</h2>
+            <p id="player1-text">It is your turn</p>
+            <h1 id="player1-score">Score: 0</h1>
+        </div>
+        <div class="button-panel">
+            <button class="button" onclick="roll()">Roll</button>
+         
+            
+            <button class ="shuffle-button" onclick = "shuffle()">shuffle</button>
+        </div>
+        <div>
+            <p id="compare cards"></p>
+
+            <script src='./poker.js'></script>
+        </div>
+        <div id="player2-background">
+            <h2 id="player2-name">Player2</h2>
+            <p id="player2-text">It is not your turn</p>
+            <h1 id="player2-score">Score: 0</h1>
+         </div>
+
+         <dive class = "closing">
+             <h3>  </h3>
+         </dive>
+</body>
+</html>

@@ -1,0 +1,115 @@
+.deck
+{
+	width:50%;
+	margin: 20px auto;
+	background:rgb(255, 30, 30);
+	border:solid 10px black;
+	padding: 5px;
+	border-radius:10px;
+	text-align: ercent;
+	color:rgb(141, 58, 224);
+}
+
+.card
+{
+	width: 5%;
+	height: 50px;
+	padding: 10px;
+	border: solid 1px black;
+	background-color: white;
+	display: inline-block;
+	border-radius: 10px;
+	font-size: 14pt;
+	text-align: center;
+	color:black;
+	margin: 3px;
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns: 200px 95px 200px;
+    grid-template-rows: 50px 250px;
+    grid-gap: 5px;
+}
+
+.title{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    color: #7300e6;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #000000
+}
+#player1-background {
+    background-color: #90EE90;
+    color: #000000;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #000000
+}
+#player2-background {
+    background-color: #DCDCDC;
+    color: #A9A9A9;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #000000
+}
+
+#player1-name {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+#player1-text {
+    padding-top: 10px;
+    text-align: center;
+    font-style: italic;
+}
+#player1-score {
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+
+#player2-name {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+#player2-text {
+    padding-top: 10px;
+    text-align: center;
+    font-style: italic;
+}
+#player2-score {
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+}
+.button-panel{
+    background-color: #FFFFFF;
+}
+.button{
+    color: blue;
+    background-color: #34BE43;
+    border: none;
+    padding: 8px 34px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+.shuffle{
+    color: #000000;
+    background-color: #EB5B34;
+    border: none;
+    padding: 8px 34px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+}

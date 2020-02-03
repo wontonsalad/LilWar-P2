@@ -1,0 +1,23 @@
+.title{
+    font-size: 120%;
+    font-weight: 700;
+    background-color: #9370DB;
+    color: #FFFFFF;
+    text-align: center;
+    padding:10px;
+}
+
+textarea {
+    padding-left: 10px;
+    width: 600px;
+    height: 600px;
+    resize: none;
+    font-size: 12px;
+}
+
+.grid-container{
+    padding-top:30px;
+    display:grid;
+    grid-column-gap: 0px;
+    grid-template-columns: auto auto auto;
+}
