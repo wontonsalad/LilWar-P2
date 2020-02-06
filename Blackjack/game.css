@@ -72,9 +72,11 @@ footer {
 	background-color: #CF6766;
 	padding: 20px 0 40px; 
 }
-
-
-
+/*
+#jumbotron h3 {
+	-vendor-animation-delay: 2s;
+}
+*/
 #header {
 	background-color: #CF6766;
 	padding: 5px 20px 10px;

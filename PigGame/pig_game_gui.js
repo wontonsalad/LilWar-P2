@@ -1,9 +1,9 @@
-let player1_score = 0, player2_score = 0, dice = 0, currentplayer = 1
+let player1_score = 0, player2_score = 0, dice = 0, current_player = 1
 const winning_score = 50
 
 function roll(){
     console.log('Player ' + current_player + 'is rolling the dice...')
-    let dice = MAth.ceil(Math.random() * 6)
+    let dice = Math.ceil(Math.random() * 6)
 
     document.getElementById('dice-img').src = 'imgs/dice' + dice + '.png'
     document.getElementById('dice-img').alt = 'Dice landed on' + dice
@@ -69,7 +69,7 @@ function roll(){
         function game_won() {
             confirm.log(current_player + ' just WON!')
             confirm('Congrats bruh' + current_player + 'nice')
-        }
+        }ls 
     
 
 

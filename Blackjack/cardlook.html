@@ -3,34 +3,34 @@
 <head>
     <title>Rundown Beatdown: Card version</title>
     <link rel = "stylesheet" type="text/css" href= "./cardlook.css" />
-    <script src='./card deck.js'></script>
+    <script src='./card.js'></script>
 </head>
 <body>
     <div class="grid-container">
         <div class="title">
-            Rundown Beatdown
-
+            <h1 id = "Rundown">
+                Rundown Beatdown
+            </h1>
         </div>
         <div id="player1-background">
-            <h2 id="player1-name">Player1</h2>
-            <p id="player1-text">It is your turn</p>
-            <h1 id="player1-score">Score: 0</h1>
+            <h1 id="player1-name">Player1</h1>
+            
+            <h1 id="player1-score">Card:</h1>
+            <img id="card-img" src="./PNG/AC.png" alt="Base Card">
         </div>
         <div class="button-panel">
-            <button class="button" onclick="roll()">Roll</button>
-         
+            <button class="button" onclick="fill()">Deal</button>
             
-            <button class ="shuffle-button" onclick = "shuffle()">shuffle</button>
+           
+            
+            <button class ="count" onclick = "start()">Begin</button>
         </div>
-        <div>
-            <p id="compare cards"></p>
-
-            <script src='./poker.js'></script>
-        </div>
+        
         <div id="player2-background">
-            <h2 id="player2-name">Player2</h2>
-            <p id="player2-text">It is not your turn</p>
-            <h1 id="player2-score">Score: 0</h1>
+            <h1 id="player2-name">Player2</h1>
+           
+            <h1 id="player2-score">Card:</h1>
+            <img id="card-img" src="./PNG/AD.png" alt="Base Card">
          </div>
 
          <dive class = "closing">
